@@ -1,49 +1,49 @@
-# CSV Data Processor
+📊 CSV Data Processor
+CSV Data Processor is a Python-based tool designed to read, clean, analyze, and visualize tabular CSV data. It helps users gain insights into structured datasets by calculating statistical summaries and generating visual reports such as histograms and scatter plots. Ideal for students, analysts, and data enthusiasts looking to practice data wrangling and analysis with Python.
 
-This Python project reads a CSV file, processes it, performs statistical analysis, and visualizes the data.
+🚀 Features
+Data Loading: Robust CSV import with error handling.
 
-**Loads and processes CSV data.**
-Performs statistical analysis (like mean, median, mode, standard deviation).
-Generates data visualizations (like histograms, bar plots, scatter plots) using Matplotlib.
-Outputs the processed data and statistics for review.
+Data Cleaning: Remove rows with missing values, and standardize dataset formatting.
 
-**Data Loading and Preprocessing**
-Read CSV data using Pandas.
-Clean and preprocess the data (e.g., handling missing values, data types, outliers).
+Statistical Analysis: Compute key statistics such as mean, median, mode, standard deviation, variance, and correlation.
 
-**Statistical Analysis**
-Use NumPy and Pandas to calculate basic statistics:
-Mean, Median, Mode
-Standard Deviation, Variance
-Correlations
+Categorical Summary: Analyze non-numeric fields with mode and frequency counts.
 
-**Data Visualization**
-Use Matplotlib to visualize the data:
-Line plots, histograms, and box plots.
-Scatter plots for bivariate analysis.
-Heatmaps for correlation matrices.
+Visualization:
 
-**Export Results**
-Export the processed data or statistics into a CSV or Excel file for further use or sharing.
+Histogram plots of numeric columns.
 
-## Setup
+Scatter plots for comparing numeric feature pairs.
 
-1. Clone the repository
-2. Install the required dependencies:
+Modular Design: Easily extensible for new metrics or data sources.
 
-   ```bash
-   pip install -r requirements.txt
+🛠️ Tech Stack & Libraries Used
+The project uses the following technologies:
 
-3. Place your CSV data in the data/ directory.
-4. Run the program:
-   ```bash
-   python src/main.py
+Python 3.x – Core language for scripting and analysis.
 
-### 5. **Running the Project**
-1. Save the CSV data file (e.g., `raw_data.csv`) in the `data/` folder.
-2. Run the project:
+Libraries:
 
-    ```bash
-    python src/main.py
+NumPy: Fast numerical computations.
 
-After running the program, you should see the processed data, statistical analysis, and visualizations in the output/ directory.
+Pandas: Powerful data manipulation and analysis.
+
+Matplotlib: Generate rich visualizations (plots, charts).
+
+Unittest: Built-in unit testing framework to ensure reliability.
+
+💻 Getting Started
+1. Clone the Repository
+
+`bash`
+`git clone https://github.com/your-username/csv-data-processor.git`
+`cd csv-data-processor`
+
+2. Install Dependencies
+`bash`
+`pip install -r requirements.txt`
+
+3. Run the Project
+`bash`
+`python src/main.py`
