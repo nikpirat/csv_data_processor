@@ -23,7 +23,7 @@ The project uses the following technologies:
 ### 1. **Clone the Repository**
 
 `bash`
-`git clone https://github.com/your-username/csv-data-processor.git`
+`git clone https://github.com/nikpirat/csv-data-processor.git`
 `cd csv-data-processor`
 
 ### 2. **Install Dependencies**
