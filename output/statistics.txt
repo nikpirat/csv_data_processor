@@ -1,0 +1,58 @@
+mean:
+ID                      5.111111
+Age                    35.666667
+Salary              65333.333333
+Years_at_Company        6.000000
+Bonus                6222.222222
+dtype: float64
+
+median:
+ID                      5.0
+Age                    35.0
+Salary              67000.0
+Years_at_Company        6.0
+Bonus                6500.0
+dtype: float64
+
+mode:
+ID                      1.0
+Age                    25.0
+Salary              50000.0
+Years_at_Company        2.0
+Bonus                6500.0
+Name: 0, dtype: float64
+
+std_dev:
+ID                      2.934469
+Age                     8.396428
+Salary              10511.898021
+Years_at_Company        2.738613
+Bonus                1092.906421
+dtype: float64
+
+variance:
+ID                  8.611111e+00
+Age                 7.050000e+01
+Salary              1.105000e+08
+Years_at_Company    7.500000e+00
+Bonus               1.194444e+06
+dtype: float64
+
+mode_non_numeric:
+Gender               Male
+Department    Engineering
+Name: 0, dtype: object
+
+count_non_numeric:
+Gender        9
+Department    9
+dtype: int64
+
+correlation:
+                        ID       Age    Salary  Years_at_Company     Bonus
+ID                1.000000  0.473503  0.399825          0.497737  0.420075
+Age               0.473503  1.000000  0.958789          0.945876  0.928548
+Salary            0.399825  0.958789  1.000000          0.911838  0.906702
+Years_at_Company  0.497737  0.945876  0.911838          1.000000  0.960559
+Bonus             0.420075  0.928548  0.906702          0.960559  1.000000
+

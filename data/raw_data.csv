@@ -1,0 +1,11 @@
+ID,Age,Salary,Gender,Department,Years_at_Company,Bonus
+1,25,50000,Male,HR,3,5000
+2,32,60000,Female,Engineering,5,6000
+3,40,75000,Male,Sales,7,7000
+4,29,58000,Female,HR,2,4500
+5,38,72000,Male,Engineering,8,6500
+6,50,80000,Male,Sales,10,8000
+7,27,53000,Female,HR,4,5500
+8,35,67000,Female,Sales,6,6500
+9,28,73000,,HR,3,5000
+10,45,73000,Male,Engineering,9,7000
